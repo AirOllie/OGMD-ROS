@@ -27,3 +27,4 @@ Before running the code, either publish the occupancy grid map to the topic **/o
 ```
 rosrun ogmd test_map_quality.py
 ```
+the detected map quality, either **Normal** or **Abnormal**, will be published to **/map_quality** topic
