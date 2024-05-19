@@ -23,7 +23,7 @@ roscore
 ```
 
 ## Run map quality detection node
-Before running the code, either publish the occupancy grid map to the topic **/occupancy_map** or save it to **occupancy_map.pgm** in the same directory as the **test_map_quality.py** file.
+Before running the code, either publish the occupancy grid map to the topic **/occupancy_map** or save it to **occupancy_map.pgm** in the same directory as the **test_map_quality.py** file, then run
 ```
 rosrun ogmd test_map_quality.py
 ```
